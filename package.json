@@ -13,7 +13,8 @@
     ".": "./out/mod.js"
   },
   "scripts": {
-    "build": "deno2node tsconfig.json"
+    "build": "deno2node tsconfig.json",
+    "prepare": "husky install"
   },
   "homepage": "https://github.com/Nazar-Ant/autoload4grammy#readme",
   "repository": {
@@ -33,6 +34,7 @@
   },
   "devDependencies": {
     "@grammyjs/types": "^2.7.0",
-    "deno2node": "^1.0.0"
+    "deno2node": "^1.0.0",
+    "husky": "^8.0.3"
   }
 }
