@@ -1,0 +1,38 @@
+{
+  "name": "autoload4grammy",
+  "version": "1.0.0",
+  "description": "Automatic loading of handlers, conversations, menus, etc. for grammY",
+  "author": "Nazar Antoniuk",
+  "license": "MIT",
+  "files": [
+    "out/"
+  ],
+  "main": "./out/mod.js",
+  "type": "commonjs",
+  "exports": {
+    ".": "./out/mod.js"
+  },
+  "scripts": {
+    "build": "deno2node tsconfig.json"
+  },
+  "homepage": "https://github.com/Nazar-Ant/autoload4grammy#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nazar-Ant/autoload4grammy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nazar-Ant/autoload4grammy/issues"
+  },
+  "keywords": [
+    "grammy",
+    "autoload",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "grammy": "^1.0.0"
+  },
+  "devDependencies": {
+    "@grammyjs/types": "^2.7.0",
+    "deno2node": "^1.0.0"
+  }
+}
