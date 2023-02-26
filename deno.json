@@ -1,11 +1,12 @@
 {
+  "lock": false,
   "fmt": {
     "options": {
       "singleQuote": true,
       "proseWrap": "preserve"
     },
     "files": {
-      "include": ["src/"]
+      "include": ["src/", "test/"]
     }
   },
   "lint": {
@@ -13,7 +14,12 @@
       "tags": ["recommended"]
     },
     "files": {
-      "include": ["src/"]
+      "include": ["src/", "test/"]
+    }
+  },
+  "test": {
+    "files": {
+      "include": ["test/"]
     }
   }
 }
